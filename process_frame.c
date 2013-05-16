@@ -32,7 +32,8 @@ void ProcessFrame(uint8 *pInputImg) {
 	// Variablen für Testat2
 
 	uint32 Hist[256];
-	uint32 omega0, omega1, u0, u1;
+	uint32 omega0, omega1;
+	float u0, u1;
 	float sigma_b, sigma_b_max;
 	short index;
 	int y, k;
